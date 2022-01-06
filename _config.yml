@@ -1,1 +1,15 @@
 theme: jekyll-theme-architect
+
+library(distill)
+navbar:
+ left:
+ - text: "Home"
+   href: index.html
+ - text: "Calendar"
+   href: calendar.html
+ - text: "Syllabus"
+   href: syllabus.html
+ - text: "Slides"
+   menu:
+   - text: "Module 1"
+   
